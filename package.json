@@ -1,18 +1,26 @@
 {
-  "name": "moneris-node",
-  "version": "1.0.11",
+  "name": "@akayami/moneris-js",
+  "version": "1.1.0",
   "description": "Node / promise wrapped API for Moneris' Transactions API",
   "main": "index.js",
-  "repository": "https://github.com/AlejandroEsquivel/moneris-js",
-  "author": "dralejandro604@gmail.com",
+  "repository": "https://github.com/akayami/moneris-js",
+  "author": "akayami@gmail.com",
   "license": "MIT",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint --fix .",
+    "test": "mocha test"
+  },
   "dependencies": {
-    "blue-tape": "^1.0.0",
-    "bluebird": "^3.4.7",
-    "numeral": "^2.0.4",
-    "q": "^1.4.1",
-    "request": "^2.79.0",
-    "request-promise": "^4.1.1",
-    "xml2js": "^0.4.17"
+    "bluebird": "^3.7.2",
+    "numeral": "^2.0.6",
+    "q": "^1.5.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "mocha": "^9.1.0"
   }
 }
